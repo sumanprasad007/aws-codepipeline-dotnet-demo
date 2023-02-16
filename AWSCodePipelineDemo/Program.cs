@@ -21,5 +21,5 @@ app.UseHttpsRedirection();
 app.UseAuthorization();
 
 app.MapControllers();
-app.MapGet("/", () => "Hello World v2!");
+app.MapGet("/", () => "Hello .NET Team, Welcome");
 app.Run();
