@@ -21,6 +21,7 @@ app.UseHttpsRedirection();
 app.UseAuthorization();
 
 app.MapControllers();
-app.MapGet("/", () => "Hello .NET Team, Welcome to 2023");
-app.MapGet("/", () => "Here, we are exploring our .NET Project & Hosted using AWS CodePipeline");
+app.MapGet("/", () => "Hello .NET Team, Welcome to 2023" +
+"Here, we are exploring our .NET Project & Hosted using AWS CodePipeline");
+
 app.Run();
