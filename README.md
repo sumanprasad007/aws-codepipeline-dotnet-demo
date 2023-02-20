@@ -34,7 +34,7 @@ Conclusion
 
 In this Project, we have gone through the steps required to deploy an ASP.NET Core Web API to AWS Elastic Beanstalk using AWS CodePipeline. We started by creating a new project using Visual Studio, making the required changes to the solution, and pushing the code to GitHub.
 Next, we created a new AWS Elastic Beanstalk environment, and then created an AWS CodePipeline to automate the build and deployment process. With the pipeline in place, each time a code change is pushed to the specified branch in the GitHub repository, the pipeline will automatically build and deploy the updated code to the Elastic Beanstalk environment. By automating the build and deployment process, we can ensure that the application is always up-to-date, and can quickly and easily roll back to previous versions if needed. The AWS CodePipeline service makes it easy to set up and manage the entire process, allowing developers to focus on writing code, rather than worrying about deployment.
-![image](https://user-images.githubusercontent.com/55047333/220026381-1d2681f0-7399-4881-8cc2-81835ff8a149.png)
+
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
