@@ -22,6 +22,6 @@ app.UseAuthorization();
 
 app.MapControllers();
 app.MapGet("/", () => "Hello .NET Team, Welcome to 2023" +
-"Here, we are exploring our .NET Project & Hosted using AWS CodePipeline using VS");
+"Here, we are exploring our .NET Project & Hosted using AWS CodePipeline using VS 2019 ");
 
 app.Run();
