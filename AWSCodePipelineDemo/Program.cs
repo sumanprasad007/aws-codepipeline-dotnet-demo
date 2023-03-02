@@ -22,7 +22,7 @@ app.UseAuthorization();
 
 app.MapControllers();
 app.MapGet("/", () => "Hello .NET Team, Welcome to 2023" +
-" Here, we are exploring our .NET Project" + "Version: 1.1");
+" Here, we are exploring our .NET Project" + "Version: 1.10");
 
 app.Run();
 
