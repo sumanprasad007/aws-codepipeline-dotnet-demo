@@ -1,7 +1,7 @@
 pipeline {
     agent {
         docker {
-            image 'microsoft/dotnet:latest'
+            image 'mcr.microsoft.com/dotnet/sdk:5.0-alpine'
             args '-u root'
         }
     }
